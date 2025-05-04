@@ -47,8 +47,8 @@ This project focuses on analyzing the performance of different TCP congestion co
    python dashboard.py
 
 ## Requirements
-1)NS2
-2)Xgraph (4.38 included for Windows & Linux)
-3)Python 3.x
-4)matplotlib library (for dashboard.py)
-5)Xlaunch (for stimulations,graph and nam files)
+NS2
+Xgraph (4.38 included for Windows & Linux)
+Python 3.x
+matplotlib library (for dashboard.py)
+Xlaunch (for stimulations,graph and nam files)
