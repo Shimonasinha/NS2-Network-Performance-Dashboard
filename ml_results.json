@@ -1,0 +1,54 @@
+{
+  "models": {
+    "Random Forest": {
+      "accuracy": 81.0,
+      "per_class": {
+        "bbr": 100.0,
+        "cubic": 100.0,
+        "dctcp": 100.0,
+        "reno": 48.0,
+        "tahoe": 80.0,
+        "vegas": 58.0
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 81.0,
+      "per_class": {
+        "bbr": 100.0,
+        "cubic": 100.0,
+        "dctcp": 100.0,
+        "reno": 50.0,
+        "tahoe": 83.0,
+        "vegas": 53.0
+      }
+    },
+    "XGBoost": {
+      "accuracy": 83.83,
+      "per_class": {
+        "bbr": 100.0,
+        "cubic": 100.0,
+        "dctcp": 100.0,
+        "reno": 55.0,
+        "tahoe": 82.0,
+        "vegas": 66.0
+      }
+    }
+  },
+  "dataset": {
+    "total_samples": 3000,
+    "variants": 6,
+    "label_counts": {
+      "reno": 500,
+      "tahoe": 500,
+      "vegas": 500,
+      "cubic": 500,
+      "bbr": 500,
+      "dctcp": 500
+    },
+    "source_counts": {
+      "ns2": 1500,
+      "iperf3": 1000,
+      "synthetic": 500
+    }
+  }
+}

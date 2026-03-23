@@ -1,0 +1,38 @@
+{
+  "reno": {
+    "protocol": "reno",
+    "throughput_mbps": 37420.8732,
+    "throughput_std": 5599.4181,
+    "mean_rtt_ms": 0.1106,
+    "p90_rtt_ms": 0.2946,
+    "p99_rtt_ms": 0.2995,
+    "std_rtt_ms": 0.0981,
+    "loss_rate": 0.003,
+    "retx_rate": 0.0024,
+    "total_retransmits": 3
+  },
+  "cubic": {
+    "protocol": "cubic",
+    "throughput_mbps": 16174.1283,
+    "throughput_std": 3565.0877,
+    "mean_rtt_ms": 0.4029,
+    "p90_rtt_ms": 0.8037,
+    "p99_rtt_ms": 0.8337,
+    "std_rtt_ms": 0.2349,
+    "loss_rate": 0.002,
+    "retx_rate": 0.0016,
+    "total_retransmits": 2
+  },
+  "bbr": {
+    "protocol": "bbr",
+    "throughput_mbps": 13105.3074,
+    "throughput_std": 4125.9627,
+    "mean_rtt_ms": 0.7899,
+    "p90_rtt_ms": 1.5973,
+    "p99_rtt_ms": 4.6696,
+    "std_rtt_ms": 1.4466,
+    "loss_rate": 0.5,
+    "retx_rate": 0.4,
+    "total_retransmits": 1115
+  }
+}
