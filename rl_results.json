@@ -1,0 +1,22 @@
+{
+  "training": {
+    "episodes": 1000,
+    "avg_reward": 74.7196,
+    "best_reward": 105.4586,
+    "final_avg": 82.1836,
+    "avg_switches": 44.08
+  },
+  "evaluation": {
+    "episodes": 50,
+    "avg_reward": 79.4629,
+    "std_reward": 11.0923
+  },
+  "tcp_usage": {
+    "reno": 12.31,
+    "tahoe": 25.47,
+    "vegas": 7.45,
+    "cubic": 16.89,
+    "bbr": 19.61,
+    "dctcp": 18.27
+  }
+}
